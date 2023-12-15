@@ -43,3 +43,24 @@ button {
 button i{
   margin-right: 3px;
 }
+.heading {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+.heading h1 {
+  color: #FFF;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 50px;
+}
+.heading p{
+  color: #FFF;
+  font-weight: 500;
+  font-size: 30px;
+}
+textarea, input, select{
+  border: none;
+  outline: none;
+  background-color: none;
+}

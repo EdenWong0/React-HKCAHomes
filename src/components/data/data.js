@@ -27,12 +27,12 @@ export const nav = [
   export const featured = [
     {
       cover: "../images/hero/h1.png",
-      name: "Family House",
+      name: "House",
       total: "122 Property",
     },
     {
       cover: "../images/hero/h2.png",
-      name: "House & Villa",
+      name: "Townhouse",
       total: "155 Property",
     },
     {
@@ -42,12 +42,12 @@ export const nav = [
     },
     {
       cover: "../images/hero/h4.png",
-      name: "Office & Studio",
+      name: "Condo",
       total: "80 Property",
     },
     {
       cover: "../images/hero/h6.png",
-      name: "Villa & Condo",
+      name: "Basement",
       total: "80 Property",
     },
   ]

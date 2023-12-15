@@ -1,4 +1,5 @@
 import React from 'react'
+import Heading from '../../basic/Heading'
 import "./hero.css"
 
 
@@ -7,7 +8,8 @@ const Hero = () => {
     <>
         <section className='hero'>
             <div className='container'>
-                <form action="" className='flex'>
+                <Heading title='The best is here for you!' subtitle='Find the most situable one for yourself'/>
+                <form className='flex'>
                     <div className='box'>
                         <span>Location</span>
                         <select>
@@ -17,7 +19,7 @@ const Hero = () => {
                             <option value='Scarborough'>Scarborough</option>
                             <option value='Vaughan'>Vaughan</option>
                             <option value='Etobicoke'>Etobicoke</option>
-                            <option value='Mississauga'>Mississauga</option>                         
+                            <option value='Mississauga'>Mississauga</option>                       
                         </select>
                     </div>
                     <div className='box'>
