@@ -30,11 +30,11 @@ const Header = () => {
                       <i className='fa fa-sign-out'></i> Sign In
                     </button>
                 </div>
-                <div className='toggle'>
-                    <button>
-                      <i className='fa fa-bars'></i>
-                    </button>
-                </div>
+                  {/*<div className='toggle'>
+                      <button>
+                        <i className='fa fa-bars'></i>
+                      </button>
+                    </div>*/}
             </div>
         </header>
     </>

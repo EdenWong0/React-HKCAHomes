@@ -28,3 +28,18 @@ a{
   text-transform: capitalize;
 }
 
+ul{
+  list-style-type: none;
+}
+button {
+  border-radius: 5px;
+  padding: 17px 30px;
+  background-color: rgb(15, 47, 151);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+button i{
+  margin-right: 5px;
+}
