@@ -1,0 +1,28 @@
+.update{
+    background-color: white;
+    color: black;
+}
+.update .heading h1{
+    color: black;
+}
+.update .heading p{
+    color: black;
+}
+.update .text{
+    padding: 30px;
+}
+.update .category span{
+    padding: 4px 15px;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 13px;
+    display: inline-block;
+}
+.update .category i{
+    font-size: 20px;
+    color: red;
+}
+.update .button{
+    border-top: 1px solid whitesmoke;
+    padding: 10px 30px;
+}

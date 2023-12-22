@@ -26,27 +26,27 @@ export const nav = [
   ]
   export const featured = [
     {
-      cover: "../images/hero/h1.png",
+      cover: "../images/House.png",
       name: "House",
       total: "122 Property",
     },
     {
-      cover: "../images/hero/h2.png",
+      cover: "../images/Townhouse.jpeg",
       name: "Townhouse",
       total: "155 Property",
     },
     {
-      cover: "../images/hero/h3.png",
+      cover: "../images/Apartment.png",
       name: "Apartment",
       total: "300 Property",
     },
     {
-      cover: "../images/hero/h4.png",
+      cover: "../images/Condo.png",
       name: "Condo",
       total: "80 Property",
     },
     {
-      cover: "../images/hero/h6.png",
+      cover: "../images/Basement.jpeg",
       name: "Basement",
       total: "80 Property",
     },
@@ -54,30 +54,30 @@ export const nav = [
   export const list = [
     {
       id: 1,
-      cover: "../images/list/p-1.png",
-      name: "Red Carpet Real Estate",
-      location: "210 Zirak Road, Canada",
+      cover: "../images/list/apartment.jpg",
+      name: "Elder Gardens",
+      location: "7555 Goreway Drive - Mississauga, ON",
       category: "For Rent",
-      price: "$3,700",
+      price: "$1,699",
       type: "Apartment",
     },
     {
       id: 2,
-      cover: "../images/list/p-2.png",
-      name: "Fairmount Properties",
-      location: "5698 Zirak Road, NewYork",
-      category: "For Sale",
-      price: "$9,750",
-      type: "Condos",
+      cover: "../images/list/house.jpg",
+      name: "57 Lord Simcoe Drive",
+      location: "57 Lord Simcoe Drive - Brampton, ON",
+      category: "For Rent",
+      price: "$6,000",
+      type: "House",
     },
     {
       id: 3,
-      cover: "../images/list/p-7.png",
-      name: "The Real Estate Corner",
-      location: "5624 Mooker Market, USA",
-      category: "For Rent",
-      price: "$5,860",
-      type: "Offices",
+      cover: "../images/list/townhouse.jpg",
+      name: "9&11 - 6 Villa Ada Dr ",
+      location: "Box Glove Markham ",
+      category: "For Sale",
+      price: "$1,699,000",
+      type: "Townhouse",
     },
     {
       id: 4,
@@ -107,26 +107,26 @@ export const nav = [
       type: "Apartment",
     },
   ]
-  export const awards = [
+  export const about = [
     {
-      icon: <i class='fa-solid fa-trophy'></i>,
-      num: "32 M	",
-      name: "Blue Burmin Award",
+      icon: <i class='fa-solid fa-user'></i>,
+      num: "1000 + ",
+      name: "Customer"
     },
     {
-      icon: <i class='fa-solid fa-briefcase'></i>,
-      num: "43 M",
-      name: "Mimo X11 Award",
+      icon: <i class='fa-solid fa-house'></i>,
+      num: "5000 +",
+      name: "Properties"
     },
     {
-      icon: <i class='fa-solid fa-lightbulb'></i>,
-      num: "51 M",
-      name: "Australian UGC Award",
+      icon: <i class='fa-solid fa-person'></i>,
+      num: "100 +",
+      name: "Sales Represenatative",
     },
     {
-      icon: <i class='fa-solid fa-heart'></i>,
-      num: "42 M",
-      name: "IITCA Green Award",
+      icon: <i class="fa-solid fa-thumbs-up"></i>,
+      num: "500 + ",
+      name: "Good Reviews",
     },
   ]
   export const location = [
