@@ -8,16 +8,12 @@ export const nav = [
       path: "/about",
     },
     {
-      text: "services",
-      path: "/services",
+      text: "listings",
+      path: "/update",
     },
     {
       text: "Review",
       path: "/review",
-    },
-    {
-      text: "pricing",
-      path: "/pricing",
     },
     {
       text: "contact",
@@ -110,12 +106,12 @@ export const nav = [
   export const about = [
     {
       icon: <i class='fa-solid fa-user'></i>,
-      num: "1000 + ",
+      num: "300+ ",
       name: "Customer"
     },
     {
       icon: <i class='fa-solid fa-house'></i>,
-      num: "5000 +",
+      num: "800+",
       name: "Properties"
     },
     {
@@ -179,140 +175,64 @@ export const nav = [
       cover: "./images/location/mississ.jpg",
     },
   ]
-  export const team = [
+  export const agent = [
     {
       list: "50",
       cover: "../images/customer/team-1.jpg",
-      address: "Liverpool, Canada",
+      address: "North York",
       name: "Sargam S. Singh",
+      Language: "English, Hindi",
       icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
     },
     {
       list: "70",
       cover: "../images/customer/team-2.jpg",
-      address: "Montreal, Canada",
+      address: "Vaughan",
       name: "Harijeet M. Siller",
+      Language: "English, French, Spanish",
       icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
     },
     {
       list: "80",
       cover: "../images/customer/team-3.jpg",
-      address: "Denever, USA",
+      address: "Markham",
       name: "Anna K. Young",
+      Language: "English, Cantonese, Mandarin",
       icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
     },
     {
       list: "51",
       cover: "../images/customer/team-4.jpg",
-      address: "2272 Briarwood Drive",
+      address: "Richmond Hill",
       name: "Michael P. Grimaldo",
+      Language: "English, Italian",
       icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
     },
     {
       list: "42",
       cover: "../images/customer/team-5.jpg",
-      address: "2272 Briarwood Drive",
+      address: "Toronto(GTA)",
       name: "Michael P. Grimaldo",
+      Language: "English, Russian, Ukrainian",
       icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
     },
     {
       list: "38",
       cover: "../images/customer/team-5.jpg",
-      address: "Montreal, USA",
+      address: "Mississauga",
       name: "Adam K. Jollio",
+      Language: "English, Arabic, Filipino",
       icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
-    },
-  ]
-  export const price = [
-    {
-      plan: "Basic",
-      price: "29",
-      ptext: "per user, per month",
-      list: [
-        {
-          icon: <i class='fa-solid fa-check'></i>,
-          text: "99.5% Uptime Guarantee",
-        },
-        {
-          icon: <i class='fa-solid fa-check'></i>,
-          text: "120GB CDN Bandwidth",
-        },
-        {
-          icon: <i class='fa-solid fa-check'></i>,
-          text: "5GB Cloud Storage",
-        },
-        { change: "color", icon: <i class='fa-solid fa-x'></i>, text: "Personal Help Support" },
-        { change: "color", icon: <i class='fa-solid fa-x'></i>, text: "Enterprise SLA" },
-      ],
-    },
-    {
-      best: "Best Value",
-      plan: "Standard",
-      price: "49",
-      ptext: "per user, per month",
-      list: [
-        {
-          icon: <i class='fa-solid fa-check'></i>,
-          text: "99.5% Uptime Guarantee",
-        },
-        {
-          icon: <i class='fa-solid fa-check'></i>,
-          text: "150GB CDN Bandwidth",
-        },
-        {
-          icon: <i class='fa-solid fa-check'></i>,
-          text: "10GB Cloud Storage",
-        },
-        {
-          icon: <i class='fa-solid fa-check'></i>,
-          text: "Personal Help Support",
-        },
-        {
-          change: "color",
-          icon: <i class='fa-solid fa-x'></i>,
-          text: "Enterprise SLA",
-        },
-      ],
-    },
-    {
-      plan: "Platinum",
-      price: "79",
-      ptext: "2 user, per month",
-      list: [
-        {
-          icon: <i class='fa-solid fa-check'></i>,
-          text: "100% Uptime Guarantee",
-        },
-        {
-          icon: <i class='fa-solid fa-check'></i>,
-          text: "200GB CDN Bandwidth",
-        },
-        {
-          icon: <i class='fa-solid fa-check'></i>,
-          text: "20GB Cloud Storage",
-        },
-        {
-          icon: <i class='fa-solid fa-check'></i>,
-          text: "Personal Help Support",
-        },
-        {
-          icon: <i class='fa-solid fa-check'></i>,
-          text: "Enterprise SLA",
-        },
-      ],
     },
   ]
   export const footer = [
     {
-      title: "LAYOUTS",
-      text: [{ list: "Home Page" }, { list: "About Page" }, { list: "Service Page" }, { list: "Property Page" }, { list: "Contact Page" }, { list: "Single Blog" }],
+      text: [{ list: "North York" }, { list: "Richmond Hill" }, { list: "Markham" }, { list: "Mississauga" }, { list: "Vaughan" }, { list: "Etobicoke" }, { list: "Scarborough" }, { list: "Toronto(GTA)" }],
     },
     {
-      title: "ALL SECTIONS",
-      text: [{ list: "Headers" }, { list: "Features" }, { list: "Attractive" }, { list: "Testimonials" }, { list: "Videos" }, { list: "Footers" }],
+      text: [{ list: "House" }, { list: "Townhouse" }, { list: "Condos" }, { list: "Apartment" }, { list: "Basement" }],
     },
     {
-      title: "COMPANY",
-      text: [{ list: "About" }, { list: "Blog" }, { list: "Pricing" }, { list: "Affiliate" }, { list: "Login" }, { list: "Changelog" }],
+      text: [{ list: "About" }, { list: "Service" }, { list: "Review" }, { list: "Contact" }],
     },
   ]

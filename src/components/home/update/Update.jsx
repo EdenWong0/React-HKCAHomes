@@ -2,7 +2,6 @@ import React from 'react'
 import Heading from '../../basic/Heading'
 import UpdateCard from './UpdateCard'
 import './Update.css'
-import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 
 
 const Update = () => {
