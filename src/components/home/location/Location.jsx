@@ -17,8 +17,8 @@ const Location = () => {
                             <div className="overlay">
                                 <h5>{items.name}</h5>
                                 <p>
-                                    <label>{items.Villas}</label>
-                                    <label>{items.Offices}</label>
+                                    <label>{items.Houses}</label>
+                                    <label>{items.Condos}</label>
                                     <label>{items.Apartments}</label>
                                 </p>
                             </div>
