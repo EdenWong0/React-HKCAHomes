@@ -5,7 +5,7 @@ import "./hero.css"
 
 const Hero = () => {
 
-  const [backgroundIndex, setBackgroundIndex] = useState(0);
+  const [, setBackgroundIndex] = useState(0);
 
   const backgroundImageList = [
     'url("../../../../public/images/background.png")',
@@ -13,18 +13,13 @@ const Hero = () => {
   ];
 
   useEffect(() => {
-    // Function to rotate background image every 5 seconds
-    const rotateBackground = () => {
-      setBackgroundIndex((prevIndex) => (prevIndex + 1) % backgroundImageList.length);
-    };
+    const interval = setInterval(() => {
+      setBackgroundIndex((prev) => (prev + 1) % backgroundImageList.length)
+    }, 5000)
 
-    // Set up an interval to rotate the background image
-    const intervalId = setInterval(rotateBackground, 5000);
-
-    // Clean up the interval on component unmount
-    return () => clearInterval(intervalId);
-  }, []); 
-
+    return () => clearInterval(interval)
+  }, [backgroundImageList.length])
+  
   return (
     <>
         <section className='hero'>
