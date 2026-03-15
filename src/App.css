@@ -12,7 +12,8 @@ body {
 }
 
 .container{
-  max-width: 70%;
+  width: 90%;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -100,7 +101,7 @@ img{
 
 .grid3{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
 }
 
@@ -119,10 +120,60 @@ img{
   margin-top: 20px;
 }
 
-@media(max-width: 1024px) {
-    .grid3,
-    .grid4,
-    .grid5{
-        grid-template-columns: repeat(2,1fr);
-    }
+/* ---------- TABLET ---------- */
+
+@media (max-width: 1024px) {
+
+  .grid5{
+    grid-template-columns: repeat(3,1fr);
   }
+
+  .grid4{
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .heading{
+    width: 80%;
+  }
+
+  .heading h1{
+    font-size: 40px;
+  }
+
+  .hero .container{
+    padding-top: 25%;
+  }
+
+}
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width: 768px) {
+
+  .flex{
+    gap: 20px;
+  }
+
+  .about .flex {
+    flex-direction: column;
+  }
+
+  .grid3,
+  .grid4,
+  .grid5{
+    grid-template-columns: 1fr;
+  }
+
+  .heading{
+    width: 100%;
+  }
+
+  .heading h1{
+    font-size: 32px;
+  }
+
+  .heading p{
+    font-size: 18px;
+  }
+
+}

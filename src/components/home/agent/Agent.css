@@ -136,3 +136,16 @@
 .agent .button button:hover {
   opacity: 0.9;
 }
+
+@media (max-width:768px){
+
+  .agent .button{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .agent .button button{
+    justify-content: center;
+  }
+
+}

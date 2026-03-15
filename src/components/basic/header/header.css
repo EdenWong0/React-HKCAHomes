@@ -40,10 +40,8 @@ header h4{
 header .toggle{
     display: none;
 }
-@media screen and (max-width:780px) {
-    header{
-        padding: 0;
-    }
+@media (max-width:780px) {
+
     header img{
         margin-top: 30px;
     }
@@ -55,7 +53,6 @@ header .toggle{
     }
     header .toggle{
         display: block;
-        margin-top: 20px;
     }
     header .small{
         position: absolute;
