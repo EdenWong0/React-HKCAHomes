@@ -6,14 +6,14 @@ import Heading from '../../basic/Heading'
 const Location = () => {
   return (
     <>
-        <section className='location padding'>
+        <section className='location padding background'>
             <div className="container">
-                <Heading title='Discover by Location' subtitle='Uncover Hidden Gems in Every Neighborhood'/>
+                <Heading sectionTitle='Discover by Location'/>
                 <div className="content grid3 mtop">
                     {location.map((items,index) => {
                         return (
                         <div className="box" key={index}>
-                            <img src={items.cover} alt='' />
+                            <img src={items.cover} alt={items.name} />
                             <div className="overlay">
                                 <h5>{items.name}</h5>
                                 <p>

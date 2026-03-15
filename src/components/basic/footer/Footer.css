@@ -1,61 +1,144 @@
-.text{
-    text-transform: capitalize;
+.text {
+  text-transform: capitalize;
 }
+
+/* top CTA section */
+
 .footerContact {
-    background-color: steelblue;
-    padding: 40px 0;
-    color: #FFF;
+  background: #4f7ea8;
+  padding: 60px 0;
+  color: #fff;
 }
+
+.footerContact .send {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
 .footerContact h1 {
-    font-size: 40px;
+  font-size: 36px;
+  font-weight: 600;
 }
-footer{
-    background-color: steelblue;
-    padding: 50px 0;
-    color: #FFF;
+
+.footerContact p {
+  margin-top: 10px;
+  max-width: 600px;
+  opacity: 0.9;
 }
-footer .container{
-    display: grid;
-    grid-template-columns: 6fr 2fr 2fr 1fr;
-    grid-gap: 20px;
+
+.footerContact button {
+  padding: 12px 22px;
+  background: #1e3a8a;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
 }
-footer img {
-    width: 150px;
+
+.footerContact button:hover {
+  background: #162e6b;
 }
+
+/* footer main */
+
+footer {
+  background: #4f7ea8;
+  padding: 60px 0;
+  color: #fff;
+}
+
+footer .container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 40px;
+}
+
 footer h2 {
-    font-weight: 500;
+  font-weight: 600;
+  font-size: 22px;
 }
-footer p{
-    color: #FFF;
-    margin: 20px 0;
+
+footer p {
+  margin: 15px 0 20px;
+  opacity: 0.9;
 }
-footer input{
-    background-color: #FFF;
-    padding: 17px;
-    width: 100%;
-    border-radius: 5px;
+
+/* newsletter */
+
+footer .input {
+  display: flex;
+  margin-top: 10px;
 }
-footer h3{
-    font-weight: 500;
-    margin-bottom: 30px;
+
+footer input {
+  flex: 1;
+  padding: 14px;
+  border-radius: 6px 0 0 6px;
+  border: none;
 }
-footer ul{
-    display: block;
+
+footer .input button {
+  padding: 14px 18px;
+  border-radius: 0 6px 6px 0;
+  border: none;
+  background: #1e3a8a;
+  color: white;
+  cursor: pointer;
 }
-footer ul li{
-    display: block;
-    color: #FFF;
-    margin-bottom: 20px;
+
+footer .input button:hover {
+  background: #162e6b;
 }
+
+/* links */
+
+footer h3 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+footer ul li {
+  margin-bottom: 12px;
+  opacity: 0.9;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+footer ul li:hover {
+  opacity: 1;
+  transform: translateX(4px);
+}
+
+/* legal */
+
 .legal {
-    text-align: center;
-    padding: 20px;
-    background-color: steelblue;
-    color: #FFF;
-    border-top: 1px solid;
+  text-align: center;
+  padding: 20px;
+  background: #4f7ea8;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  font-size: 14px;
 }
-@media screen and (max-width: 800px) {
-    footer .container{
-        grid-template-columns: repeat(2, 1fr);
-    }
+
+/* responsive */
+
+@media screen and (max-width: 900px) {
+
+  .footerContact .send {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  footer .container {
+    grid-template-columns: 1fr;
+  }
 }

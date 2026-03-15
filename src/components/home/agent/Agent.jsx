@@ -16,32 +16,40 @@ const Agent = () => {
                             <div className='box' key={index}>
                             <button className='btn3'>{val.list} Listings</button>
                             <div className="details">
-                                <div className="img">
-                                    <img src={val.cover} alt="" />
-                                    <i className='fa fa-circle-check'>verified</i>
-                                </div>
-                                <i className='fa fa-location-dot'></i>
-                                <label htmlFor=''>{val.address}</label>
-                                <br />
-                                <i className='fa fa-language'></i>
-                                <label htmlFor=''>{val.Language}</label>
-                                <h4>{val.name}</h4>
+                            <div className="img">
+                                <img src={val.cover} alt={val.name} />
+                                <i className="fa-solid fa-circle-check verified"></i>
+                            </div>
 
-                                <ul>
-                                    {val.icon.map((icon, index) => (
-                                        <li key={index}>{icon}</li>
-                                    ))}
-                                </ul>
-                                <div className="button flex">
-                                    <button>
-                                        <i className='fa fa-envelope'></i>
-                                        Message
-                                    </button>
-                                    <button>
-                                        <i className='fa fa-phone'></i>
-                                        Contact 
-                                    </button>
-                                </div>
+                            <p className="location">
+                                <i className="fa-solid fa-location-dot"></i>
+                                {val.address}
+                            </p>
+
+                            <p className="language">
+                                <i className="fa-solid fa-language"></i>
+                                {val.Language}
+                            </p>
+
+                            <h4>{val.name}</h4>
+
+                            <ul className="social">
+                                {val.icon.map((icon, index) => (
+                                <li key={index}>{icon}</li>
+                                ))}
+                            </ul>
+
+                            <div className="button">
+                                <button className="message">
+                                <i className="fa fa-envelope"></i>
+                                Message
+                                </button>
+
+                                <button className="contact">
+                                <i className="fa fa-phone"></i>
+                                Contact
+                                </button>
+                            </div>
                             </div>
                         </div>
                         )

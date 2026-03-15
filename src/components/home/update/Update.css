@@ -1,37 +1,92 @@
-.update{
-    background-color: white;
-    color: black;
+.update {
+  background-color: white;
+  color: black;
 }
-.update .heading h1{
-    color: black;
+
+.update .content {
+  gap: 30px;
 }
-.update .heading p{
-    color: black;
+
+.update .box {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
 }
-.update .text{
-    padding: 30px;
+
+.update .box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgb(0 0 0 / 10%);
 }
-.update .category span{
-    padding: 4px 15px;
-    border-radius: 2px;
-    font-weight: 600;
-    font-size: 13px;
-    display: inline-block;
+
+.update .img img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
 }
-.update .category i{
-    font-size: 20px;
-    color: lightslategray;
+
+.update .text {
+  padding: 25px;
 }
-.update .button{
-    border-top: 1px solid whitesmoke;
-    padding: 10px 30px;
+
+.update .text h4 {
+  font-size: 18px;
+  margin: 10px 0;
 }
-.btn3{
-    margin: auto;
-    padding: 10px 30px;
-    display: block;
-    font-size: 15px;
-    border-top: 1px solid;
-    text-transform: uppercase;
-    margin-top: 50px;
+
+.update .location {
+  font-size: 14px;
+  color: #666;
+}
+
+.update .category span {
+  padding: 5px 14px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.update .category {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.update .category i {
+  font-size: 18px;
+  color: lightslategray;
+  cursor: pointer;
+}
+
+.update .button {
+  border-top: 1px solid #f1f1f1;
+  padding: 14px 25px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn3 {
+  margin: 50px auto 0;
+  padding: 12px 34px;
+  display: block;
+  font-size: 14px;
+  border-radius: 30px;
+  background: #1e40af;
+  color: white;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.btn3:hover {
+  background: #1d4ed8;
+}
+
+.update .img {
+  overflow: hidden;
+}
+
+.update .img img {
+  transition: transform 0.4s ease;
+}
+
+.update .box:hover img {
+  transform: scale(1.05);
 }

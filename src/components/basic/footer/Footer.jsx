@@ -24,13 +24,13 @@ const Footer = () => {
                         <h2>Are you looking for any home?</h2>
                         <p>Receive latest released, hot deals in your inbox every month</p>
                         <div className="input flex">
-                            <input type="text" placeholder="Email" name="" id=""/>
+                            <input type="text" placeholder="Email"/>
                             <button>Subscribe</button>
                         </div>
                     </div>
                 </div>
-                {footer.map((val) => (
-                    <div className="box">
+                {footer.map((val, index) => (
+                    <div className="box" key={index}>
                         <h3>{val.title}</h3>
                         <ul>
                             {val.text.map((items) => (

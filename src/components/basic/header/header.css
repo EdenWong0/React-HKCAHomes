@@ -1,6 +1,6 @@
 header{
     background-color:aliceblue;
-    height: 20vh;
+    min-height: 10vh;
     box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
     padding: 15px 0;
     position: sticky;
@@ -8,11 +8,16 @@ header{
     z-index: 999;
 }
 
-header img{
-    width: 170px;
+header .logo{
+    font-weight: 900;
+    font-size: 30px;
+    color: rgb(15, 47, 151);
 }
-header a{
-    margin-left: 30px;
+header ul.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
     transition: 0.5s;
     font-weight: 500;
 }

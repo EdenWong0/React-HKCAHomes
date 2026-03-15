@@ -3,37 +3,58 @@
     color: navy;
 }
 .about {
+    padding: 80px 0;
     background-color: white;
     color: black;
     text-align: center;
 }
-.about .heading h1{
-    color: black;
+
+.about .container {
+    max-width: 90%;
+    margin: 0 atuo;
 }
-.about .heading p{
+
+.about .heading p {
     color: black;
+    padding: 10px 30px;
 }
+
 .about .icon{
-    width: 100px;
-    height: 100px;
-    line-height: 100px;
+    width: 60px;
+    height: 60px;
+    line-height: 50px;
     margin: auto;
     margin-top: 50px;
     background: lightblue;
     border-radius: 4% 50%;
-    font-size: 32px;
+    font-size: 25px;
     color: navy;
 }
-.about h1{
-    font-size: 50px;
+.about .box-numbers{
+    font-size: 22px;
+    font-weight: 800;
+    padding: 10px 30px;
 }
-.about p{
-    padding: 30px;
+
+.about .box-name{
+
+    padding: 0px 30px;
 }
+
 .about img {
     width: 100%;
     height: 100%;
     position: relative;
+}
+
+@media(max-width: 1024px) {
+    .about .content.cards{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .about .icon{
+        margin-top: 20px;
+    }
 }
   
   

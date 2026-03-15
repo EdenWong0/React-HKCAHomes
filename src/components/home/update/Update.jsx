@@ -8,11 +8,11 @@ const Update = () => {
   return (
     <>
     <section className='update padding'>
-        <div className=''container>
-            <Heading title='Latest Properties Arrivals' subtitle='Discover the Latest Listings for Your Next Home'></Heading>
-        </div>
+      <div className='container'>
+        <Heading sectionTitle='Latest Properties Arrivals' subtitle='Discover the Latest Listings for Your Next Home'/>
         <UpdateCard />
         <button className='btn3'>Show More</button>
+      </div>
     </section>
     </>
   )

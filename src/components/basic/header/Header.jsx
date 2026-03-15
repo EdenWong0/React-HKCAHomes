@@ -12,7 +12,10 @@ const Header = () => {
         <header>
             <div className="container flex">
                 <div className='logo'>
+                  HKCAHomes
+                  {/*
                     <img src="../images/hkcahomesLogo.png" alt=""/>
+                  */}
                 </div>
                 <div className='nav'>
                   <ul className={navlist ? "small" : "flex"}>
